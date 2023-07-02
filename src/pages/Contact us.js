@@ -10,46 +10,54 @@ function ContactForm() {
 
     const subject = 'New Contact Form Submission';
     const body = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
-    const mailtoLink = `mailto:your-email@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
+    const mailtoLink = `mailto:abdulwasiu6609@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
     window.location.href = mailtoLink;
+   
   };
 
   return (
-    <div>
+    <div className="contact">
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
+        
         <input
           type="text"
           id="name"
           name="name"
+          placeholder="Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
-        /><br />
+        />
 
-        <label htmlFor="email">Email Address:</label>
+        
         <input
           type="email"
           id="email"
           name="email"
+          placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
-        /><br />
+        />
 
-        <label htmlFor="message">Message:</label>
+        
         <textarea
           id="message"
           name="message"
+          placeholder="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           required
-        ></textarea><br />
+        ></textarea>
 
         <button type="submit">Send</button>
       </form>
+      
+      
+      
+    
     </div>
   );
 }

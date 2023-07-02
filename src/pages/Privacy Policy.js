@@ -1,7 +1,7 @@
 export default function PrivacyPolicyPage() {
    return (
       <div className="pages">
-         <h3> Privacy Policy</h3>
+         <h1> Privacy Policy</h1>
          <p>This Privacy Policy describes how TechOpus ("we," "us," or "our") collects, uses, and discloses personal information when you use our website. Protecting your privacy and personal data is of utmost importance to us. By using TechOpus, you consent to the practices outlined in this Privacy Policy.</p>
 
          <ol>

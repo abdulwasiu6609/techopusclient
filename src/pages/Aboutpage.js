@@ -1,7 +1,7 @@
 export default function AboutPage(){
     return(
         <div className="pages">
-            <h2>Welcome to TechOpus!</h2>
+            <h1>Welcome to TechOpus!</h1>
             <p>At TechOpus, we believe that technology is not just a tool; it's an orchestra of innovation, creativity, and limitless possibilities. We are a dedicated team of tech enthusiasts who are passionate about sharing the latest trends, breakthroughs, and insights from the world of technology.</p>
             <p>Our mission is to provide a platform where tech aficionados, professionals, and curious minds can come together to explore, learn, and engage in meaningful conversations about all things tech. Whether you're a seasoned tech expert or just beginning your tech journey, TechOpus is here to guide you through the dynamic landscape of the digital world.</p>
             <p>What sets TechOpus apart is our commitment to covering a wide range of tech topics. From cutting-edge gadgets and consumer electronics to artificial intelligence, blockchain, cybersecurity, and beyond, we strive to bring you diverse and thought-provoking content that caters to all interests. Our team of experienced writers and industry experts is dedicated to delivering accurate, well-researched, and engaging articles that will keep you informed and inspired.</p>

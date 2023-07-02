@@ -2,7 +2,7 @@ export default function TermsAndConditionPage() {
     return (
 
         <div class="pages">
-            <h3>Terms and Conditions</h3>
+            <h1>Terms and Conditions</h1>
             <p>Welcome to TechOpus!</p>
             <p>These terms and conditions govern your use of our website and its associated services.By accessing or using TechOpus, you agree to be bound by these terms and conditions. If you do not agree with any part of these terms, please refrain from using our website</p>
 
