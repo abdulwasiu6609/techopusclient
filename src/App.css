@@ -181,10 +181,16 @@
   }
   
 
-
+/*Pages*/
   .pages{
-    padding: 10px;
+    padding: 0px 24px;
     margin: 0 auto;
     max-width:700px;
-
+    line-height: 1.4rem;
+    
   }
+  .pages ol{
+    padding-left: 24px ;
+  }
+
+  /*contact form*/
