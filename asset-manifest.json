@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/techopusclient/static/css/main.0e6311de.css",
+    "main.css": "/techopusclient/static/css/main.02fa496d.css",
     "main.js": "/techopusclient/static/js/main.4c75590b.js",
     "static/js/787.c4e7f8f9.chunk.js": "/techopusclient/static/js/787.c4e7f8f9.chunk.js",
     "index.html": "/techopusclient/index.html",
-    "main.0e6311de.css.map": "/techopusclient/static/css/main.0e6311de.css.map",
+    "main.02fa496d.css.map": "/techopusclient/static/css/main.02fa496d.css.map",
     "main.4c75590b.js.map": "/techopusclient/static/js/main.4c75590b.js.map",
     "787.c4e7f8f9.chunk.js.map": "/techopusclient/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e6311de.css",
+    "static/css/main.02fa496d.css",
     "static/js/main.4c75590b.js"
   ]
 }
