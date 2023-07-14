@@ -16,6 +16,11 @@ export default function Header() {
                 <Link to="/register">Register</Link>
             </div>
             </div>
+
+            <div className="header-mobile">
+                <img></img>
+                <Link to="/" className="logo">TechOpus</Link>
+            </div>
            
         </header >
 
